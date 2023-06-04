@@ -1,0 +1,9 @@
+<div class="container">  
+   <h1>Editar Noticia</h1>
+    <%= render "form", note: @note %>
+ </div>
+ <div class="container mt-5">    
+       <%= link_to "Show this note", @note, class: "nav_item" %> 
+       <%= link_to "Back to notes", notes_path, class: "nav_item" %>     
+ </div>
+ 

@@ -1,0 +1,14 @@
+ 
+   
+    <div id="<%= dom_id note %>"> 
+     <div class="card">
+      <%= image_tag( note.image , class: "card-img-top") %>
+      <div class="card-body">
+        <h5 class="card-title text-start"> <p><strong></strong><%= note.title %></p></h5>
+        <p class="card-text text-start"> <p><strong></strong><%= note.content %></p></p> 
+      </div>
+      <div class= "ver_noticia text-center">
+        <%= link_to "Ver noticia", note %>    
+      </div>
+    </div>
+  
